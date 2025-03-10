@@ -29,7 +29,7 @@ $age=30
 </p>
 
 <?php
-$languages = ["PHP", "HTML", "CSS", "JS"];
+$languages = ["PHP"," ", "HTML", " ","CSS", " ", "JS"];
 
 
 ?>
