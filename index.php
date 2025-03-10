@@ -40,8 +40,7 @@ $languages = ["PHP", "HTML", "CSS", "JS"];
     {
          echo $language;
     }?>
-
-
+    </p>
 
 
 
