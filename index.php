@@ -3,6 +3,7 @@
 $name="David";
 $bestFood="tagine";
 $age=30
+
 ?>
 
 <!--Je demande au php de généré du html avec un h1, incluant bonjour suivi de la valeur de la variable
@@ -11,7 +12,7 @@ $age=30
 
 
 
-<h1>Hello <?php echo $name;?> et j'aime le <?php echo $bestFood;?> . Mon âge : <?php echo $age?> ans</h1>
+<h1>Hello <?php echo $name;?> j'aime le <?php echo $bestFood;?> et mon âge : <?php echo $age?> ans</h1>
 
 <p>
     <!--Je demande avec mon if si je suis majeur et sinon je suis mineur
@@ -26,6 +27,19 @@ $age=30
     <?php 
 }?>
 </p>
+
+<?php
+$languages = ["PHP", "HTML", "CSS", "JS"];
+
+
+?>
+
+<p>
+    <!Je demande à mon php de générer une liste de mes langages de programmation préférés-->
+    <?php foreach($languages as $language)
+    {
+         echo $language;
+    }?>
 
 
 
